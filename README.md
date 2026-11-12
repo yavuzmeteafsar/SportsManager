@@ -1,7 +1,15 @@
+<p align="center">
+  <img src="assets/logo.png" alt="Sports Manager logo" width="140">
+</p>
 
+<h1 align="center">Sports Manager</h1>
 
-```markdown
-# Sports Manager
+<p align="center">
+  <img src="https://img.shields.io/badge/version-1.0--SNAPSHOT-blue" alt="Version 1.0-SNAPSHOT">
+  <img src="https://img.shields.io/badge/Java-21-orange" alt="Java 21">
+  <img src="https://img.shields.io/badge/JavaFX-21.0.2-informational" alt="JavaFX 21.0.2">
+  <img src="https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey" alt="Platform">
+</p>
 
 A turn-based sports management game built with Java 21 and JavaFX 21. Manage a football or handball team through a full league season — set tactics, pick your lineup, simulate matches period by period, train your squad, and track standings.
 
@@ -132,5 +140,4 @@ Saves are written to `~/SportsManagerSaves/<name>.json` and include player attri
 |---------|---------|-----|
 | JavaFX | 21.0.2 | UI framework |
 | Gson | 2.10.1 | JSON save/load and team data parsing |
-| JUnit 5 | 5.x | Unit tests |
-```
+| JUnit 5 | 5.10.2 | Unit tests |
